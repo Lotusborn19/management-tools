@@ -766,7 +766,8 @@ class LeaderboardConfig(Configurable):
 
     self.write_csv(rows, outfile=flags.outcsv)
 
-  def update(self, flags):
+  def 
+  update(self, flags):
     """Updates the provided leaderboards.
 
         writes out the updated leaderboards

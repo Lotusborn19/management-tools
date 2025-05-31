@@ -59,9 +59,11 @@ class UnicodeDictWriter(object):
   def writeheader(self):
     self._writerow(self.cols)
 
-  def writerows(self, rows):
-    for row in rows:
-      self.writerow(row)
+  
+  
+
+
+
 
   def writerow(self, d):
     arr = []
